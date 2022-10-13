@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.31.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar sticky top-0 bg-base-100 z-40">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </label>
+            <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Item 1</a></li>
+              <li tabindex="0">
+                <a class="justify-between">
+                  Parent
+                  <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/></svg>
+                </a>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </li>
+              <li><a>Item 3</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost normal-case text-xl font-bold">andinausafal</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal p-0">
+            <li><a>Item 1</a></li>
+            <li tabindex="0">
+              <a>
+                Parent
+                <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
+              </a>
+              <ul class="p-2">
+                <li><a>Submenu 1</a></li>
+                <li><a>Submenu 2</a></li>
+              </ul>
+            </li>
+            <li><a>Item 3</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end"> 
+            <button class="btn btn-sm btn-primary" data-toggle-theme="light,dark" data-act-class="ACTIVECLASS">THEME</button>
+        </div>
+      </div>
+      <div class="hero min-h-screen bg-base-200 ">
+        <div class="hero-content flex-col lg:flex-row md:px-10 lg:px-20">
+          <div>
+            <h3 class="text-3xl text-primary font-bold">Halo Semua 👋, saya</h3>
+            <h1 class="text-5xl font-bold">Andi Nawfal</h1>
+            <h2 class="font-medium text-lg mb-5 lg:text-2xl">Student</h2>
+            <p class="py-5 text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet illo laborum recusandae. Officiis in ipsam explicabo beatae sapiente? Deserunt, quisquam. Vel ipsa cum necessitatibus minima beatae error ut quidem hic.</p>
+            <button class="btn btn-primary">Contact Me</button>
+          </div>
+          <img src="https://source.unsplash.com/1000x1000?javascript" class="max-w-sm lg:max-w-lg rounded-full shadow-2xl" />
+        </div>
+      </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/theme-change@2.0.2/index.js"></script>
+</body>
+</html>
